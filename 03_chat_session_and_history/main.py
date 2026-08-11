@@ -11,7 +11,7 @@ history : list[Message] =[]
 factory = GeminiClientFactory()
 client = factory.create_client()
 
-def save_history():
+def save_history()->None:
 
     data = []
 
